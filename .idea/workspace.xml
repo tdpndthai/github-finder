@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d23c851-fea4-4c82-9fe9-c90f4ec6f17b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/Search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/user/UserItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/UserItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/Users.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +92,8 @@
       <workItem from="1588340772532" duration="6646000" />
       <workItem from="1588351310960" duration="1103000" />
       <workItem from="1588406387924" duration="6416000" />
+      <workItem from="1588415904865" duration="48000" />
+      <workItem from="1588686061574" duration="6608000" />
     </task>
     <servers />
   </component>
@@ -110,5 +112,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <line>29</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
