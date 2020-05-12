@@ -8,6 +8,7 @@ import Search from "./user/Search";
 import Alert from "./components/layout/Alert";
 import About from "./components/pages/About";
 import User from "./user/User";
+import GithubState from "./context/github/GithubState";
 
 const App = () => {
     const [users,setUsers] = useState([]);
@@ -42,7 +43,8 @@ const App = () => {
     }
     //clear user from state
     const clearUsers = () => {
-        this.setState({users: [], loading: false})
+        setUsers([])
+        setLoading(false)
     }
 
     //set alert user no input something
@@ -52,30 +54,33 @@ const App = () => {
     }
 
     return (
-        <Router>
-            <div className="App">
-                <Navbar></Navbar>
-                <div className="container">
-                    <Alert alert={alert}/>
-                    <Switch>
-                        <Route exact path="/" render={
-                            props=>(
-                                <Fragment>
-                                    <Search searchUsers={searchUsers} clearUsers={clearUsers}
-                                            showClear={users.length > 0 ? true : false} setAlert={setAlertMsg}></Search>
-                                    <Users loading={loading} users={users}></Users>
-                                </Fragment>
-                        )}/>
-                        <Route exact path='/about' component={About}/>
-                        <Route exact path='/user/:login' render={
-                            props =>(
-                                <User {...props} getUser={getUser} user={user} loading={loading} getUserRepos={getUserRepos} repos={repos}/>
-                            )
-                        }/>
-                    </Switch>
+        <GithubState>
+            <Router>
+                <div className="App">
+                    <Navbar></Navbar>
+                    <div className="container">
+                        <Alert alert={alert}/>
+                        <Switch>
+                            <Route exact path="/" render={
+                                props=>(
+                                    <Fragment>
+                                        <Search searchUsers={searchUsers} clearUsers={clearUsers}
+                                                showClear={users.length > 0 ? true : false} setAlert={setAlertMsg}></Search>
+                                        <Users loading={loading} users={users}></Users>
+                                    </Fragment>
+                                )}/>
+                            <Route exact path='/about' component={About}/>
+                            <Route exact path='/user/:login' render={
+                                props =>(
+                                    <User {...props} getUser={getUser} user={user} loading={loading} getUserRepos={getUserRepos} repos={repos}/>
+                                )
+                            }/>
+                        </Switch>
+                    </div>
                 </div>
-            </div>
-        </Router>
+            </Router>
+        </GithubState>
+
     );
 }
 

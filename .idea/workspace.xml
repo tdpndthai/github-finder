@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d23c851-fea4-4c82-9fe9-c90f4ec6f17b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/context/github/GithubState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/github/githubContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/github/githubReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/User.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +95,13 @@
       <workItem from="1588779353067" duration="3466000" />
       <workItem from="1588820104918" duration="2000" />
       <workItem from="1588836779163" duration="602000" />
-      <workItem from="1588861668390" duration="6210000" />
+      <workItem from="1588861668390" duration="6560000" />
+      <workItem from="1588907675976" duration="39000" />
+      <workItem from="1588909213724" duration="93000" />
+      <workItem from="1588911009571" duration="266000" />
+      <workItem from="1589210151533" duration="2845000" />
+      <workItem from="1589213595702" duration="272000" />
+      <workItem from="1589269472658" duration="1742000" />
     </task>
     <servers />
   </component>
